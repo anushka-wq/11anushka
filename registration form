@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body align="center">
+
+    <h2>Registration Form</h2>
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" required>
+    <br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" required>
+    <br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="phone" id="phone" name="phone" required>
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <label for="event">Select event:</label>
+    <select id="event" name="event" required>
+        <option value="education">Educational</option>
+        <option value="business">Business</option>
+    </select>
+    <br><br>
+
+    <!-- Date of Event Field -->
+    <label for="event_date">Event Date:</label>
+    <input type="date" id="event_date" name="event_date" required>
+    <br><br>
+
+    <input type="submit" value="Register">
+    <br><br>
+
+</body>
+</html>
